@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{{url_for('static', filename= 'index.js')}}"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename= 'login.css')}}">
+</head>
+
+<body href="{{url_for('static', filename= 'Fundo.jpg')}}">
+
+    <form method="post" action=http://localhost:5000/login class="form">
+        <h1 id="login">Login</h1>
+        <div class="inputs">
+            <div class="N">
+                <input type="text" placeholder="Nome" name="name" id="inputN">
+            </div>
+            <div class="S">
+                <input type="password" name="senha" placeholder="Senha" id="inputS">
+            </div>
+        </div>
+
+        <div class="divBtn">
+            <button id="btnV" onclick="certo()">CADASTRAR</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

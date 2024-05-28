@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://www.naval.com.br/blog/wp-content/uploads/2016/10/World-of-Warships.jpg');
+    background-size: cover;
+}
+
+
+.form{
+    background-color:rgba(141, 141, 141, 0.4);
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin: 200px 0px 0px 500px;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2,1fr 1fr);
+    grid-template-rows: 10px 7vh 7vh;
+    border: 2px solid black;
+}
+
+
+#inputN{
+    width: 18vw;
+    height: 6vh;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: left;
+    background-color: #C9C9C9;
+    padding: 0px 0px 0px 20px;
+
+}
+
+#inputS{
+    width: 18vw;
+    height: 6vh;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #C9C9C9;
+    padding: 0px 0px 0px 20px;
+
+}
+
+
+.N{
+    display: flex;
+    justify-content: center;
+    grid-column: 1/5;
+    grid-row: 2;
+}
+
+.S{
+    display: flex;
+    justify-content: center;
+    grid-column: 1/5;
+    grid-row: 3;
+    margin: 20px 0px 0px 0px ;
+}
+
+
+.inputs{
+    margin: 170px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 1/5;
+}
+
+
+
+#login{
+    grid-column: 1/5;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 0px 0px;
+}
+
+
+
+#btnV{
+    background: #52D157;
+    border: none;
+    border-radius: 25px;
+    width: 20vw;
+    height: 6vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.divBtn{
+display: flex;
+align-items: center;
+justify-content: center;
+grid-column: 1/5;
+grid-row: 5;
+}
