@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Fiote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="back">
+        <div class="calcu">
+            <p id="tela">
+            <p id="digito"></p>
+            </p>
+
+            <div class="grid">
+                <button id="AC" onclick="limpar()">AC</button>
+
+                <button id="n1" onclick="colocar('1')">1</button>
+                <button id="n2" onclick="colocar('2')">2</button>
+                <button id="n3" onclick="colocar('3')">3</button>
+                <button id="n4" onclick="colocar('4')">4</button>
+                <button id="n5" onclick="colocar('5')">5</button>
+                <button id="n6" onclick="colocar('6')">6</button>
+                <button id="n7" onclick="colocar('7')">7</button>
+                <button id="n8" onclick="colocar('8')">8</button>
+                <button id="n9" onclick="colocar('9')">9</button>
+                <button id="n0" onclick="colocar('0')">0</button>
+                <button id="off" onclick="desligar()">OFF</button>
+
+
+                <button id="Ma" onclick="colocar('+')">+</button>
+                <button id="Me" onclick="raiz()">√</button>
+                <button id="divi" onclick="colocar('/')">/</button>
+                <button id="Mult" onclick="colocar('*')">*</button>
+                <button id="raiz" onclick="colocar('-')">-</button>
+                <button id="igual" onclick="calcular()">=</button>
+
+
+                <button id="virgula" onclick="colocar('.')">.</button>
+                <button id="apagar" onclick="apagar()">⌫</button>
+
+            </div>
+        </div>
+
+       
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

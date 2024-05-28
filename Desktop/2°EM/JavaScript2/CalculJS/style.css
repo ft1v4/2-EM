@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+}
+
+.calcu {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background: rgb(55, 55, 55);
+    width: 350px;
+    height: 530px;
+    border-radius: 10px;
+    border: 5px solid black;
+    margin: 150px 0px 0px 550px;
+}
+
+#tela {
+    position: absolute;
+    top: 0%;
+    background: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 50px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px 0px 90px;
+}
+
+#digito{
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    margin: 150px 70px 70px 80px;
+}
+
+#n1 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 1;
+    grid-row: 4;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#n2 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 2;
+    grid-row: 4;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#n3 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 4;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+#n4 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 1;
+    grid-row: 3;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#n5 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 2;
+    grid-row: 3;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+
+#n6 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 3;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+#n7 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 1;
+    grid-row: 2;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+#n8 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 2;
+    grid-row: 2;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+#n9 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 2;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+#n0 {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 1;
+    grid-row: 5;
+    background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+#Ma {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 4;
+    grid-row: 3;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#Me {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 4;
+    grid-row: 2;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#divi {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 2;
+    grid-row: 1;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#Mult {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 1;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#Porc {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 1;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#Paren {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 2;
+    grid-row: 1;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#igual {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 4;
+    grid-row: 5;
+    background: rgb(13, 255, 0);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#raiz{
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 4;
+    grid-row: 4;
+    background:blue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#off {
+    font-size: 20px;
+    border-radius: 50px;
+    grid-column: 4;
+    grid-row: 1;
+    background: #ff0000;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+
+
+
+#virgula {
+    font-size: 30px;
+    border-radius: 50px;
+    grid-column: 2;
+    grid-row: 5;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#apagar{
+    font-size: 20px;
+    border-radius: 50px;
+    grid-column: 3;
+    grid-row: 5;
+   background: rgba(116, 116, 116, 0.632);
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding: 1px 6px 5px 6px;
+    cursor: pointer;
+}
+
+#AC{
+    font-size: 20px;
+    border-radius: 50px;
+    grid-column: 1;
+    grid-row: 1;
+    background: rgb(255, 132, 0);
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+#ligar{
+    position: absolute;
+    top: 44%;
+    left: 47%;
+    font-size: 30px;
+    border-radius: 50px;
+    background: #11ff0000;
+    border: none;
+    width: 100px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
